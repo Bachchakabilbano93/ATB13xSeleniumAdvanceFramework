@@ -1,4 +1,4 @@
-package com.thetestingacademy.pages.pageObjectModel.vwo;
+package com.thetestingacademy.pages.pageObjectModel.vwo.normal_POM;
 
 import com.thetestingacademy.utils.PropertiesReader;
 import com.thetestingacademy.utils.WaitHelpers;

@@ -1,4 +1,4 @@
-package com.thetestingacademy.pages.pageObjectModel.vwo;
+package com.thetestingacademy.pages.pageObjectModel.vwo.normal_POM;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

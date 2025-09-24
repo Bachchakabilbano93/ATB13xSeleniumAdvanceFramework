@@ -1,7 +1,7 @@
 package com.thetestingacademy.tests.vwo.pageObjectModelTC;
 
-import com.thetestingacademy.pages.pageObjectModel.vwo.DashboardPage;
-import com.thetestingacademy.pages.pageObjectModel.vwo.LoginPage;
+import com.thetestingacademy.pages.pageObjectModel.vwo.normal_POM.DashboardPage;
+import com.thetestingacademy.pages.pageObjectModel.vwo.normal_POM.LoginPage;
 import com.thetestingacademy.utils.PropertiesReader;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;

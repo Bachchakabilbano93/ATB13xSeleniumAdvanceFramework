@@ -2,8 +2,8 @@ package com.thetestingacademy.tests.vwo.pageObjectModelTC;
 
 import com.thetestingacademy.base.CommonToAllTest;
 import com.thetestingacademy.driver.DriverManager;
-import com.thetestingacademy.pages.pageObjectModel.vwo.normal_POM.DashboardPage;
-import com.thetestingacademy.pages.pageObjectModel.vwo.normal_POM.LoginPage;
+import com.thetestingacademy.pages.pageObjectModel.vwo.improved_POM.DashboardPage;
+import com.thetestingacademy.pages.pageObjectModel.vwo.improved_POM.LoginPage;
 import com.thetestingacademy.utils.PropertiesReader;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
@@ -12,15 +12,15 @@ import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.*;
 
-public class TestVWOLogin_02_Prop_POM extends CommonToAllTest {
+public class TestVWOLogin_03_Prop_Improved_POM extends CommonToAllTest {
 
     // D
     // L
     // V
 
-    private static final Logger logger = LogManager.getLogger(TestVWOLogin_02_Prop_POM.class);
+    private static final Logger logger = LogManager.getLogger(TestVWOLogin_03_Prop_Improved_POM.class);
 
     @Owner("ABIR")
     @Description("Verify that with invalid email, pass, error message is shown on the app.vwo.com")
