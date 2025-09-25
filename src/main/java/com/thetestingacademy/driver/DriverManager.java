@@ -36,6 +36,9 @@ public class DriverManager {
             case "chrome":
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("--start-maximized");
+                if(PropertiesReader.readKey("headless").equalsIgnoreCase("true")){
+                    chromeOptions.addArguments("--headless");
+                }
                 driver = new ChromeDriver(chromeOptions);
                 break;
             case "firefox":
